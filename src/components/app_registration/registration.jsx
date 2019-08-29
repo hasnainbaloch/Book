@@ -78,14 +78,15 @@ class Login extends Component {
         })
     }
     
-    loginUser = () => {
+    loginUser = (e) => {
+        e.preventDefault();
         this.setState({
             loading: true
         });
         const data = {
             userId : this.state.userId,
             userPassword : this.state.userPassword,
-
+            
         }
         axios.post('http://localhost:4000/login', data)
         .then(response => {
