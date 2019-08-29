@@ -1,0 +1,78 @@
+div#wrapper{
+    display: flex;
+    flex-direction: column;
+    padding: 100px 50px 50px;
+    background: #d7fbf3;
+
+    div.title{
+        padding: 50px 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        color: rgb(94, 202, 139);
+        padding: 0 10px 0 0;
+        span.viewAll{
+            cursor: pointer;
+                i{
+                    line-height: 1.1;
+                    vertical-align: middle;
+                    background: rgb(94, 202, 139);
+                    color: #ffffff;
+                    padding: 5px 7px;
+                    font-size: 10px;
+                    text-align: center;
+                    border-radius: 10px;
+                    -webkit-border-radius: 10px;
+                    -moz-border-radius: 10px;
+                    -ms-border-radius: 10px;
+                    -o-border-radius: 10px;
+}
+            }
+    }
+    
+    div#top-selling{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        
+            div.book{
+                padding: 20px;
+                margin: 0 0 30px 0;
+                background: url('../../../assets/photos/bg2.png') no-repeat;
+                background-size: contain;
+                background-position-y: 30%;
+                div.book-wrap{
+                        box-shadow:0 0 10px 0 rgba(0,0,0,.3);
+                        width: 200px;
+                        height: 300px;
+                            img{
+                                width: 100%;
+                                height: 100%;
+                            }
+                    }
+                    div.book-detail{
+                        padding: 20px 0;
+                        h4{
+                            color: #737977;
+                            font-size: 16px;
+                            margin: 0;
+                        }
+                        span.author{
+                            font-size: 14px;
+                            color: #6e7a79;
+                            span{color: #303a39;}
+                        }
+                        div.price{
+                            span.ex-price{
+                                text-decoration-line: line-through;
+                                -moz-text-decoration-line: line-through;
+                                color: #a7a7a7;
+                                padding: 0 0 0 10px;
+                                }
+                        }
+                    }
+
+            }
+    }
+}

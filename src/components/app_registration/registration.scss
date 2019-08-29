@@ -1,0 +1,141 @@
+div#login-wrapper{
+    background: url('./../../assets/photos/loginbg') no-repeat;
+    background-position: center left;
+    background-size: cover;
+    position: fixed;
+    width: 100%;
+
+    div.user-form{
+        display: inline-block;
+        min-width: 300px;
+        width: 30vw;
+        height: 100vh;
+        color: #ffffff;
+        background: rgba(56, 28, 49, 0.828);
+        box-shadow:6px 0 20px 0px rgb(0, 0, 0);
+
+        nav{
+            div#logo{
+                margin: 10px;
+                width: 55px;
+                height: 50px;
+                border-radius: 50%;
+                overflow: hidden;
+
+                    img{
+                        width: 100%;
+                        height: 100%;
+                        display: block;
+                    }
+            }
+        }
+
+        form{
+            position: relative;
+            top: 30%;
+            left: 0;
+            padding: 20px;
+            transform: translate(0, -30%);
+            div.form-group{
+                position: relative;
+            }
+
+            label{
+                position: relative;
+                transform: translate(0 ,20px);
+                transition: .3s all ease-in-out;
+                letter-spacing: 1px;
+            }
+            input{
+                border: none;
+                border-bottom: 1px solid rgb(255, 255, 255);
+                border-radius: 0;
+                margin: 10px 0;
+                background: transparent;
+                color: #ffffff;
+                font-family: 'Ubuntu', sans-serif;
+                
+                &::focus{
+                    outline: none !important;
+                }
+                
+            }
+            div#user-btn{
+                .form-btn{
+                    border-radius: 0 !important;
+                    cursor: pointer;
+                    letter-spacing: 1px;
+                    color: #000000;
+                    border:none;
+                    background: #ffffff;
+                }
+                span{
+                    display:inline-block;
+                    cursor: pointer;
+                    margin-top: 5px;
+                }
+
+            }
+            span.showPass {
+                position: absolute;
+                top: 50px;
+                right: 10px;
+            }
+        }
+    }
+
+    div.login-wrapper{
+        display: inline-block;
+        width: 70vw;
+        height: 100vh;
+        background-color: rgba(0, 0, 0, 0.212);
+        color: #381c31;
+        padding: 100px;
+        vertical-align: middle;
+        position: absolute;
+        top: 50%;
+        left: 65vw;
+        transform: translate(-50%, -50%);
+        // mix-blend-mode: soft-light;
+        text-align: center;
+        h1{
+            font-size: 100px;
+            font-weight: bold;
+        }
+        p{
+            padding: 10px 150px;
+            font-size: 16px;
+            line-height: 15px;
+        }
+    }
+    
+    div#form-transition{
+        position: absolute;
+        top: 70%;
+        left: 28.5%;
+        width: 50px;
+        height: 50px;
+        border-radius: 100px;
+        padding: 10px;
+        background-image: linear-gradient(to right, #b8cbb8 0%, #b8cbb8 0%, #b465da 0%, #cf6cc9 33%, #ee609c 66%, #ee609c 100%);
+        color: #ffffff;
+        text-align: center;
+        letter-spacing: 1px;
+        line-height: 2;
+        transition: .2s;
+
+        &:hover{
+            transition: .3s;
+            transform: translate(10px);
+            cursor: pointer;
+        }
+        &:before{
+            position: absolute;
+            content: 'Register Account';
+            left: 100%;
+            top: 10px;
+            color: rgb(255, 255, 255);
+            width: 150px;
+        }
+    }
+}

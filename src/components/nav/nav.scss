@@ -1,0 +1,169 @@
+div#nav-wrapper{
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row nowrap;
+    align-items: center;
+    
+    width: 100%;
+    height: 50px;
+    background: #ffffff;
+    top:0;
+    position: fixed;
+    transition:.3s;
+    -webkit-transition:.3s;
+    -moz-transition:.3s;
+    -ms-transition:.3s;
+    -o-transition:.3s;
+    
+    div.side-menu{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+            
+            div.side-menu-icon{
+                display: inline-block;
+                width: 50px;
+                height: 50px;
+                background: rgb(255, 81, 58);
+                padding: 12px 8px;
+                cursor: pointer;
+                color: #ffffff;
+                    span{
+                        width: 20px;
+                        height: 1px;
+                        background: #ffffff;
+                        display: block;
+                        position: relative;
+                        top: 5px;
+                        text-align: center;
+                        transition:all ease 6ms;
+                        -webkit-transition:all ease 6ms;
+                        -moz-transition:all ease 6ms;
+                        -ms-transition:all ease 6ms;
+                        -o-transition:all ease 6ms;
+}
+                    span:nth-child(2){
+                        top: 10px;
+                        width: 100%;
+                        transition:all ease 6ms;
+                        -webkit-transition:all ease 6ms;
+                        -moz-transition:all ease 6ms;
+                        -ms-transition:all ease 6ms;
+                        -o-transition:all ease 6ms;
+                    }
+                    span:nth-child(3){
+                        top: 15px;
+                        width: 15px}
+                        transition:all ease 6ms;
+                        -webkit-transition:all ease 6ms;
+                        -moz-transition:all ease 6ms;
+                        -ms-transition:all ease 6ms;
+                        -o-transition:all ease 6ms;
+
+                    &:hover{ 
+                        span:nth-child(1){
+                            width:15px;
+                            transition:all ease 6ms;
+                            -webkit-transition:all ease 6ms;
+                            -moz-transition:all ease 6ms;
+                            -ms-transition:all ease 6ms;
+                            -o-transition:all ease 6ms;
+                        }
+                        span:nth-child(2){
+                            width: 90%;
+                            transition:all ease 6ms;
+                            -webkit-transition:all ease 6ms;
+                            -moz-transition:all ease 6ms;
+                            -ms-transition:all ease 6ms;
+                            -o-transition:all ease 6ms;
+                        }
+                        span:nth-child(3){
+                            width: 20px;
+                            transition:all ease 6ms;
+                            -webkit-transition:all ease 6ms;
+                            -moz-transition:all ease 6ms;
+                            -ms-transition:all ease 6ms;
+                            -o-transition:all ease 6ms;
+                        }
+                    }
+                    img{
+                        width: 100%;
+                        height: 100%;
+                        display: block;
+                    }
+            }
+            ul#nav-menu-left{
+                margin: 0;
+                padding: 10px 0;
+                li{
+                    display: inline-block;
+                    margin: 0 15px;
+                }
+            }
+        }
+        div.right-menu{
+            ul#nav-menu-right{
+                margin: 0;
+                padding: 10px 0;
+                li{
+                    display: inline-block;
+                    margin: 0 10px;
+                    vertical-align: middle;
+
+                        div.user{
+                            width: 35px;
+                            height: 35px;
+                            border-radius: 50px;
+                            background: rgba(255, 190, 147, 0.281);
+                            padding: 7px;
+                            border: 1px solid rgb(255, 202, 167);
+                            img{
+                                    width: 100%;
+                                    height: 100%;
+                                    display: block;
+                                }   
+                        }
+                        .create-account-btn{
+                            border-radius: 50px;
+                            background: rgba(255, 190, 147, 0.281);
+                            padding: 7px 15px;
+                            border: 1px solid rgb(255, 202, 167);
+                            color: rgb(255, 132, 50);
+                        }
+                        .cart-icon{
+                            position: relative;
+                            width: 35px;
+                            height: 35px;
+                            border-radius: 50px;
+                            border: 1px solid rgb(255, 202, 167);
+                            background: rgba(255, 190, 147, 0.281);
+                            padding: 7px;
+                            -webkit-border-radius: 50px;
+                            -moz-border-radius: 50px;
+                            -ms-border-radius: 50px;
+                            -o-border-radius: 50px;
+                                &:hover{
+                                    cursor: pointer;
+                                }
+                                
+                                span.alerts{
+                                    position: absolute;
+                                    top: 0;
+                                    right: 0;
+                                    width: 10px;
+                                    height: 10px;
+                                    border-radius: 10px;
+                                    background: rgb(255, 190, 147);
+                                    border: 1.5px solid rgb(255, 132, 50);;
+                                    -webkit-border-radius: 10px;
+                                    -moz-border-radius: 10px;
+                                    -ms-border-radius: 10px;
+                                    -o-border-radius: 10px;
+                                }
+                        }
+                        // div.
+                }
+            }
+        }
+
+}
