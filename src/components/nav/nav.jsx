@@ -55,7 +55,6 @@ class Nav extends Component {
                             <div className="user-detail">
                                 <Button btnClass="create-account-btn">Create Account</Button>
                             </div>
-                            
                         </li>
                         <li>
                             <div className="cart-icon">
