@@ -7,7 +7,7 @@ import profilePhoto from "../../assets/photos/user-dp.png";
 
 class Nav extends Component {
 
-    componentWillMount(){
+    componentDidMount(){
         
         let prevScrollpos = window.pageYOffset;
         window.onscroll = () => {

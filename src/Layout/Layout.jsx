@@ -5,7 +5,7 @@ import Footer from '../components/footer/footer';
 const Layout = (props) => (
     <div>
         <nav>
-            <Nav/>
+            <Nav/>          
         </nav>
         <main>
             {props.children}
