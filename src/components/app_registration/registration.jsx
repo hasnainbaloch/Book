@@ -203,7 +203,7 @@ class Login extends Component {
                     </form>
                 </div>
                 <div className="login-wrapper">
-                    <h1>Books</h1>
+                    <h1>Travis Books</h1>
                     <hr/>
                     <p>Tenderness and kindness are not signs of weakness and despair, but manifestations of strength and resolution.
                         <br/> <strong> " Kahlil Gibran " </strong>

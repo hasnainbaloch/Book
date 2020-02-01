@@ -42,7 +42,7 @@ class Nav extends Component {
                     </ul>
                 </div>
                 <div className="logo">
-                    <h3>Travis BOOK</h3>
+                    <h3>BOOK</h3>
                 </div>
                 <div className="right-menu">
                     <ul id="nav-menu-right">
